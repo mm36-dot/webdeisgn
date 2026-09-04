@@ -28,6 +28,7 @@ header{
     display: flex;
     flex-direction: row;
     height: 50vh;
+    flex-wrap: wrap;
 }
 
 main{
@@ -73,4 +74,42 @@ main{
     .article{
         height: 100px;
     }
+
+    .a{
+        width: 40%;
+    }
+
+    .b{
+        width: 55%;
+        margin: 0;
+    }
+
+    .c{
+        width: 100%;
+    }
+}
+
+@media(max-width: 450px){
+
+    .container{
+        width: 100vw;
+        padding: 0px;
+    }
+
+    .article{
+        height: 20vh;
+    }
+
+    .a{
+        width: 100%;
+    }
+
+    .b{
+        width: 100%;
+    }
+
+    .c{
+        width: 100%;
+    }
+
 }
