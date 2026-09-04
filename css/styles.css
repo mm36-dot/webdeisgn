@@ -1,7 +1,7 @@
 * { 
    box-sizing: border-box; 
 }
-	body {
+body {
     margin: 0;
  }	
 ul, ol {
@@ -14,4 +14,49 @@ li {
 a { 
   text-decoration: none; color: #000; 
 }
+
+header{
+    width: 100%;
+    height: 150px;
+    border: 5px solid black;
+    margin-bottom: 15px;
+    background-color: red;
+}
+.container{
+    width: 1200px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.article{
+    height: 50vh;
+}
+
+.a{
+    background-color: blueviolet;
+    border: 2px solid black;
+    width: 21%;
+}
+
+.b{
+    background-color: yellow;
+    border: 2px solid black;
+    width: 66%;
+    margin:0px 2.5%;
+}
+
+.c{
+    background-color: orange;
+    border: 2px black solid;
+    width: 10%;
+}
+
+/*hola*/
 
