@@ -29,6 +29,7 @@ header{
     flex-direction: row;
     height: 50vh;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 main{
@@ -50,8 +51,8 @@ main{
 .b{
     background-color: yellow;
     border: 2px solid black;
-    width: 66%;
-    margin:0px 2.5%;
+    width: 64%;
+    margin:0px 2%;
 
 }
 
