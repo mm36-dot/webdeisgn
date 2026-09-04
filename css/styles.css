@@ -23,7 +23,7 @@ header{
     background-color: red;
 }
 .container{
-    width: 1200px;
+    width: 95vw;
     border: 5px solid black;
     display: flex;
     flex-direction: row;
@@ -43,6 +43,7 @@ main{
     background-color: blueviolet;
     border: 2px solid black;
     width: 21%;
+
 }
 
 .b{
@@ -50,13 +51,26 @@ main{
     border: 2px solid black;
     width: 66%;
     margin:0px 2.5%;
+
 }
 
 .c{
     background-color: orange;
     border: 2px black solid;
     width: 10%;
+
 }
 
 /*hola*/
 
+/* medeia query de table 768px*/
+@media(max-width: 768px){
+
+    .container{
+        padding: 20px;
+    }
+
+    .article{
+        height: 100px;
+    }
+}
